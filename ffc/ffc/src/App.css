@@ -1,0 +1,212 @@
+/* Header styles */
+header {
+  background-color: #f1eaea; /* Background color for the header */
+  color: #5b2727; /* Text color for the header */
+  padding: 2px; /* Add some padding for spacing */
+  position: fixed; /* Fixed position to keep it at the top */
+  top: 0; /* Stick it to the top of the viewport */
+  width: 100%; /* Full width of the viewport */
+  display: inline-block; /* Flexbox to align content */
+  justify-content: space-between; /* Space between logo and login button */
+  }
+
+/* Logo styles */
+.logo {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.2rem;
+  border-bottom-color: #194574;
+  border-bottom-width: 10px;
+}
+
+Header .logo h2{
+  text-decoration:underline;
+  top: 0;
+  margin-top: -0.1rem;
+}
+
+
+Header .logo img{
+  border-radius: 3rem;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.5rem;
+}
+
+
+/* Login button styles */
+.login-button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 5px 5px; /* Add padding to the button */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Add rounded corners */
+  display: block;
+  height: 30px;
+  margin-top: 12px;
+}
+
+/* Menu styles */
+.menu {
+  background-color: #6e4e4e; /* Background color for the menu */
+  padding: 8px; /* Add some padding for spacing */
+  position: fixed; /* Fixed position to keep it on the left */
+  height: 210px;
+ }
+
+
+    .login-button{
+      margin-right: 15px;
+    }
+
+    .login-button:hover{
+      color: #fff;
+      background-color: #73518a;
+      transform:translateY(1);
+    }
+
+/* Footer styles */
+footer {
+  background-color: #918da3; /* Background color for the footer */
+  color: #ded0d0; /* Text color for the footer */
+  /* position: fixed; Fixed position to keep it at the bottom */
+  /*bottom: 0; *//* Stick it to the bottom of the viewport */
+  width: 100%; /* Full width of the viewport */
+  text-align: left; /* Center the content horizontally */
+  display: flex;
+  justify-content: space-between;
+}
+.copyright{
+  margin-top: 2rem;
+  position: fixed;
+}
+
+div{
+  align-items: flex;
+  color: #4c1eb7;
+  font-size: small;
+}
+
+ nav{
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+}
+
+.Redes-sociais{
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+
+Footer .Redes-sociais img{
+  text-align: center;
+  border-radius: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  margin-bottom: 3px;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+Footer .Redes-sociais .img_name{
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-slider img{
+  height: 280px;
+  width: fit-content;
+}
+
+/*Main page coding*/
+
+main {
+  text-align: center;
+  height: 300px; /* Set the desired height */
+  margin-top: 4.2rem;
+  position:relative;
+  background-color: #acb1b5;
+}
+
+
+.about-us{
+  margin-bottom: 3rem;
+  
+}
+
+.about_us{
+  display: flex;
+}
+
+
+.about-us{
+  width: 30%;
+  margin: 0.4rem;
+  margin-right:5rem;
+}
+
+.image-container{
+  width:19%;
+  margin-left: 5rem;
+}
+
+.image-container .image-slider{
+ width: 100%;
+ margin-left: 8%;
+}
+
+.image-slider img{
+  width: 100%;
+}
+
+
+.image-container .image-slider img{
+  width: fit-content;
+  position: relative;
+  height: 170px;
+}
+
+.image-container .image-slider :hover{
+  transform: translateY(-1px);
+  border-color: #007bff;
+  background-color: #5b2727;
+color: #fff;
+}
+
+.about-us h1{
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  width: 200px;
+  margin-left: 1%;
+  border-radius: 1rem;
+}
+
+.image-container h1{
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  width: 230px;
+  margin-left: 1.2%;
+  border-radius: 1rem;
+}
+
+.animation{
+  margin: 0.1rem;
+}
+
+.foot-contact{
+  display: inline;
+  margin-left: 1rem;
+}
+
+.entre-em-contato h1{
+  background-color: #b7adcd;
+  color: #fff;
+  border-radius: 0.6rem;
+  font-size: medium;
+}
+
